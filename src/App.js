@@ -5,15 +5,14 @@ import {
   Route,
 } from 'react-router-dom'
 
-import Home from './pages'
-import Main from './pages/main'
+import Faucet from './pages/Faucet'
 
 // add pages to list of routes
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/" element={<Faucet />} />
       </Routes>
     </Router>
   )

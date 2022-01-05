@@ -1,0 +1,138 @@
+.main {
+  /* height: 100vh; */
+  background-color: rgb(20, 20, 20);
+  color: white;
+  overflow: scroll;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column; 
+  position: relative;
+}
+
+.header {
+  margin-top: 100px;
+  /* background-color: #60c657; */
+}
+
+.title {
+  font-size: 50px;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  font-weight: 700;
+  background: -webkit-linear-gradient(left, #35aee2, #ff52ff, #ff8867, #ff52ff, #35aee2);
+  background-size: 1000% 200%;
+  animation: gradient-animation 10s ease infinite;
+  background-clip: text;
+  color: rgba(0, 0, 0, 0);
+} 
+
+.sub-text {
+  margin-top: -20px;
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.button {
+  margin-top: 40px;
+  height: 40px;
+  border: 0;
+  width: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  background: -webkit-linear-gradient(left, #35aee2, #ff52ff, #ff8867, #ff52ff, #35aee2);
+  background-size: 4000% 200%;
+  animation: gradient-animation 10s ease infinite;
+}
+
+.authed-container{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  margin-top: 150px;
+  height: 600px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ff52ff0a;
+  align-items: center;
+}
+
+.un-authed-container{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  margin-top: 150px;
+  height: 600px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffffff18;
+  align-items: center;
+}
+
+.footer-container {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 20px;
+}
+
+.gh-logo {
+  width: 35px;
+  height: 35px;
+}
+
+.footer-text {
+  font-size: 16px;
+  color: white;
+  font-weight: 200;
+}
+
+
+/* KeyFrames */
+/* @-webkit-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
