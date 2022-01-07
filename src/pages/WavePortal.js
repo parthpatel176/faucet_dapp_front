@@ -6,7 +6,7 @@ import abi from "../utils/WavePortal.json"
 const App = () => {
 
   // testnet address
-  const contractAddress = "0x0C552eff679AD1aeDBdA937e0aa1ca8704F92159"
+  const contractAddress = "0xF7E3C6Ec2912580E3Cbd15A49D3929DE6e1E3D27"
   const contractABI = abi.abi
 
   // state variable to store user wallet info (public only)
