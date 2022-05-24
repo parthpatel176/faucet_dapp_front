@@ -104,9 +104,9 @@ const Main = () => {
     <div className="main">
       <div className="header">
         <p className="title"> Rinkeby Testnet Faucet </p>
-        <p className="sub-text"> Get some ETH to start experimenting on the Rinkeby testnet </p>
+        <p className="sub-text"> Connect wallet to recieve some ethereum on the Rinkeby testnet </p>
         <p className="disc-text" style={{marginTop: '0px'}
-          }> Please note that this is only testnet Ethereum, not real ETH! </p>
+          }> Please note that this is not real (mainnet) ethereum </p>
       </div>
 
       <div className="tap_bg" > 
